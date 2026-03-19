@@ -6,6 +6,7 @@ function App() {
     <div className="App">
       {/* 기본 로고 대신 회원가입 창을 보여줍니다 */}
       <Signup />
+      <div>시험</div>
     </div>
   );
 }
