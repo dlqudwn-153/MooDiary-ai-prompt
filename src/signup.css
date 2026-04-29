@@ -1,0 +1,112 @@
+/* 기본 초기화 */
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fafafa; /* 배경은 아주 연한 회색으로 눈 보호 */
+}
+
+.signup-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 460px;
+  padding: 50px 40px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+/* 헤더 디자인 */
+.signup-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  font-size: 34px;
+  font-weight: 900;
+  color: #000;
+  letter-spacing: -1.5px;
+  margin-bottom: 8px;
+}
+
+.subtitle {
+  color: #888;
+  font-size: 14px;
+}
+
+/* 폼 & 입력창 */
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-box {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.input-box label {
+  font-size: 13px;
+  font-weight: 700;
+  color: #333;
+}
+
+.input-box input {
+  height: 48px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 15px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-box input:focus {
+  border-color: #000; /* 포커스 시 검은색 강조 */
+}
+
+/* 가입 버튼 */
+.signup-submit-btn {
+  height: 52px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.signup-submit-btn:hover {
+  background-color: #333;
+}
+
+/* 푸터 */
+.signup-footer {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 14px;
+  color: #999;
+}
+
+.signup-footer a {
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.signup-footer a:hover {
+  text-decoration: underline;
+}
